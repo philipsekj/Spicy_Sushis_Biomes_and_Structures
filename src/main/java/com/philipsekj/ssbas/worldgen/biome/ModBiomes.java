@@ -32,6 +32,7 @@ public class ModBiomes {
     public static final ResourceKey<Biome> SHIMMERING_SHALLOWS = ResourceKey.create(Registries.BIOME,
             new ResourceLocation(Ssbas.MOD_ID, "shimmering_shallows"));
 
+
     public static void boostrap(BootstapContext<Biome> context) {
         context.register(SHIMMERING_SHALLOWS, shimmering_shallows(context));
     }
@@ -59,14 +60,13 @@ public class ModBiomes {
         BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
         BiomeDefaultFeatures.addDefaultSoftDisks(biomeBuilder);
         BiomeDefaultFeatures.addWaterTrees(biomeBuilder);
-
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PLACED_FEATURE.getOrThrow(ModPlacedFeatures.WARM_CORAL_PLACED));
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PLACED_FEATURE.getOrThrow(ModPlacedFeatures.SEA_PICKLE_PLACED));
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultSeagrass(biomeBuilder);
 
         return new Biome.BiomeBuilder()
                 .hasPrecipitation(true)
                 .downfall(0.8f)
-                .temperature(0.7f)
+                .temperature(1.1f)
                 .generationSettings(biomeBuilder.build())
                 .mobSpawnSettings(spawnBuilder.build())
                 .specialEffects((new BiomeSpecialEffects.Builder())
