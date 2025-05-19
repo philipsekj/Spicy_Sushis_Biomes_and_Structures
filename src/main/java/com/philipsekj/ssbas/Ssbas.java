@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.philipsekj.ssbas.block.ModBlocks;
 import com.philipsekj.ssbas.item.ModItems;
 import com.philipsekj.ssbas.worldgen.biome.ModTerrablender;
+import com.philipsekj.ssbas.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,6 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
 
 @Mod(Ssbas.MOD_ID)
 public class Ssbas {
@@ -37,6 +39,9 @@ public class Ssbas {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
+        });
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

@@ -15,17 +15,23 @@ public class ModSurfaceRules {
     public static SurfaceRules.RuleSource makeRules() {
         SurfaceRules.ConditionSource isAtOrAboveWaterLevel = SurfaceRules.waterBlockCheck(-1, 0);
 
-        SurfaceRules.RuleSource grassSurface = SurfaceRules.sequence(SurfaceRules.ifTrue(isAtOrAboveWaterLevel, SHIMMERING_SAND), DIRT);
-
         return SurfaceRules.sequence(
-                SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.SHIMMERING_SHALLOWS),
-                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, SHIMMERING_SAND)),
-                        SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, CORALSTONE)),
-                        SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, CORALSTONE),
+                // Shimmering Shallows: Shimmering Sand on top
+                SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.SHIMMERING_SHALLOWS),
+                        SurfaceRules.sequence(
+                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, SHIMMERING_SAND),
+                                SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, CORALSTONE),
+                                SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, CORALSTONE)
+                        )
+                ),
 
-
-                // Default to a grass and dirt surface
-                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, grassSurface)
+                // Default: Grass Surface
+                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR,
+                        SurfaceRules.sequence(
+                                SurfaceRules.ifTrue(isAtOrAboveWaterLevel, DIRT),
+                                DIRT
+                        )
+                )
         );
     }
 
