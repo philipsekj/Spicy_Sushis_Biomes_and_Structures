@@ -1,0 +1,38 @@
+{
+  "block.ssbas.volcanic_rock": "Volcanic Rock",
+  "block.ssbas.volcanic_cobbled_rock": "Cobbled Volcanic Rock",
+  "block.ssbas.volcanic_glass": "Volcanic Glass",
+  "block.ssbas.charred_cactus": "Charred Cactus",
+  "block.ssbas.ashen_shrubs": "Ashen Shrubs",
+  "block.ssbas.glowing_ember_mushroom": "Glowing Ember Mushroom",
+
+  "block.ssbas.lush_moss": "Lush Moss",
+  "block.ssbas.hanging_moss": "Hanging Moss",
+  "block.ssbas.giant_fern": "Giant Fern",
+  "block.ssbas.vibrant_wildflower": "Vibrant Wildflower",
+
+  "block.ssbas.luminescent_mushroom": "luminescent_mushroom",
+  "block.ssbas.cursed_vines": "cursed_vines",
+  "block.ssbas.black_oak_log": "black_oak_log",
+  "block.ssbas.black_oak_planks": "black_oak_planks",
+  "block.ssbas.black_oak_leaves": "black_oak_leaves",
+
+  "block.ssbas.thunderblooms": "thunderblooms",
+  "block.ssbas.resistant_moss": "resistant_moss",
+  "block.ssbas.wind_blasted_oak_log": "wind_blasted_oak_log",
+  "block.ssbas.wind_blasted_oak_planks": "wind_blasted_oak_planks",
+  "block.ssbas.wind_blasted_oak_leaves": "wind_blasted_oak_leaves",
+
+  "block.ssbas.red_glowing_crystal": "red_glowing_crystal",
+  "block.ssbas.red_glowing_crystal_block": "red_glowing_crystal_block",
+  "block.ssbas.orange_glowing_crystal": "orange_glowing_crystal",
+  "block.ssbas.orange_glowing_crystal_block": "orange_glowing_crystal_block",
+  "block.ssbas.yellow_glowing_crystal": "yellow_glowing_crystal",
+  "block.ssbas.yellow_glowing_crystal_block": "yellow_glowing_crystal_block",
+  "block.ssbas.green_glowing_crystal": "green_glowing_crystal",
+  "block.ssbas.green_glowing_crystal_block": "green_glowing_crystal_block",
+  "block.ssbas.blue_glowing_crystal": "blue_glowing_crystal",
+  "block.ssbas.blue_glowing_crystal_block": "blue_glowing_crystal_block",
+  "block.ssbas.purple_glowing_crystal": "purple_glowing_crystal",
+  "block.ssbas.purple_glowing_crystal_block": "purple_glowing_crystal_block"
+}

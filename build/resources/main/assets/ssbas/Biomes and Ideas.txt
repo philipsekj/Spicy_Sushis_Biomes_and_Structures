@@ -1,0 +1,286 @@
+Shimmering Shallows – A biome with glowing coral, crystal-clear water, and luminescent fish
+    Items:
+        Pearlescent Scale – used for crafting water-breathing armor
+        Glowfish Fillet – food with night vision effect
+    Blocks:
+        Glowing Coral Block
+        Shimmering Sand
+        Coralstone
+    Plants:
+        Luminous Kelp
+        Pearlroot Vines
+    Structures:
+        Sunken Temple
+        Coral Dome Ruins
+    Advancements:
+        Shimmer Dive – Enter the Shimmering Shallows
+        Light Beneath – Find a Sunken Temple
+        Unseen Depths – [Hidden] Collect 5 Pearlescent Scales
+    Mobs:
+        Glowfish
+        Coral Sprite
+        Abyssal Guardian (mini-boss)
+
+Ashen Wastes – A scorched desert with blackened sand, fossilized trees, and magma vents
+    Items:
+        Scorched Bone – used in fire resistance potions
+        Ash Core – used in crafting heat-resistant gear
+    Blocks:
+        Ashen Sand
+        Fossilized Bark
+        Magma Vent
+    Plants:
+        Ember Weed
+        Burnt Frond
+    Structures:
+        Fossil Graveyard
+        Magma Shrine
+    Advancements:
+        Scorched Earth – Enter the Ashen Wastes
+        Heat Within – Find a Magma Shrine
+        Ashes to Ashes – [Hidden] Burn an enemy using an Ash Core
+    Mobs:
+        Magma Scarab
+        Ash Lurker
+        Fossil Revenant
+
+Eldertree Glade  – A mystical forest with massive ancient trees, glowing roots, and floating islands
+    Items:
+        Elder Sap – used in ancient potion brewing
+        Glowing Root – alchemical reagent with regeneration
+    Blocks:
+        Elderwood Log
+        Enchanted Soil
+        Sky Moss
+    Plants:
+        Floating Petal Plant
+        Root Fern
+    Structures:
+        Elder Grove Shrine
+        Skyroot Arch
+    Advancements:
+        Ancient Whispers – Enter Eldertree Glade
+        Skyward Bound – Reach a floating island
+        The Old Magic – [Hidden] Brew a potion using Elder Sap
+    Mobs:
+        Wispling
+        Treeshade
+        Elder Ent (mini-boss)
+
+Gilded Marshlands – Swamps with golden lily pads, iridescent frogs, and murky reflective waters
+    Items:
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Frozen Abyss – A deep, glacial biome with ice spires, underground ice caves, and frozen creatures
+    Items:
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Veilwood Grove – A dark, misty biome with bioluminescent plants, eerie sounds, and hidden ruins
+    Items:
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Lush Crater – A meteor impact site filled with alien flora, strange minerals, and a crashed spaceship
+    Items:
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Obsidian Dunes – A desert of black glass and volcanic rock
+    Items:
+        Molten Core – fuels furnaces indefinitely
+    Blocks:
+        Volcanic Rock
+        Cobbled Volcanic Rock
+    Plants:
+        Charred Cactus
+        Ashen Shrubs
+        Glowing Ember Mushroom
+    Structures:
+    Advancements:
+    Mobs:
+
+Verdant Cliffs – Towering cliffs covered in lush moss and waterfalls
+    Items:
+        Wind-Drift Petals – slow fall effect when held
+    Blocks:
+    Plants:
+        Vibrant Wildflower
+    Structures:
+    Advancements:
+    Mobs:
+
+Twilight Expanse – A dimension-like biome stuck in eternal dusk
+    Items:
+        Shadowfruit – grants night vision and invisibility
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Stormy Highlands – Peaks constantly struck by lightning
+    Items:
+        Charged Ember – stores lightning for later use
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Crystalline Hollows – Underground caves filled with glowing crystals
+    Items:
+        Prism Dust – used in powerful enchantments
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Blighted Bog – A poisonous swamp with bubbling green pools
+    Items:
+        Toxic Bloom – used for potions of decay
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Sanguine Thicket – A dark forest with red-leafed trees and an eerie aura
+    Items:
+        Bloodwood Bark – enhances weapon damage
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Ethereal Steppe – A floating grassland biome with shifting, spectral flora
+    Items:
+        Cloudgrass – grants a temporary jump boost when eaten
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Charred Hollow – A dead forest with smoldering tree stumps
+    Items:
+        Emberwood Planks – fireproof building material
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Deep Rift – A massive canyon with abandoned mineshafts and lava lakes
+    Items:
+        Abyssal Ore – used for powerful tools and armor
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Amber Glade – A forest with golden, resin-covered trees
+    Items:
+        Sticky Resin – can be crafted into an unbreakable glue
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Frostbitten Badlands – A frozen wasteland with towering ice spires
+    Items:
+        Permafrost Shard – used to craft frost-resistant gear
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Veilwood Hollow – A mystical forest where trees phase in and out of existence
+    Items:
+        Phasing Timber – allows players to pass through for a few seconds
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Drifting Wastes – A desert with floating sand particles and mirage effects
+    Items:
+        Mirage Glass – makes invisible blocks visible
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Cursed Steppe – A biome filled with ghostly whispers and skeletal remains
+    Items:
+        Soul Fragment – used to summon lost spirits
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Tanglewood Mire – A thick, tangled swamp with massive roots
+    Items:
+        Vinebound Charm – gives automatic wall climbing ability
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Glacial Abyss – A deep ice trench with frozen shipwrecks
+    Items:
+        Frostcore Gem – enhances ice-based magic and weapons
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Luminant Thicket – A jungle with glowing fungi and bioluminescent creatures
+    Items:
+        Glowcap Spores – provides night vision when consumed
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Scorched Plateau – A barren, fiery wasteland with rivers of magma
+    Items:
+        Fireheart Stone – prevents fire damage when held
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
+
+Hallowed Expanse – A peaceful, golden field filled with floating lights
+    Items:
+        Blessed Bloom – revives a player once when carried
+    Blocks:
+    Plants:
+    Structures:
+    Advancements:
+    Mobs:
