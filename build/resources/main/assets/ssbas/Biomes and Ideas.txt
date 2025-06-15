@@ -3,12 +3,10 @@ Shimmering Shallows – A biome with glowing coral, crystal-clear water, and lum
         Pearlescent Scale – used for crafting water-breathing armor
         Glowfish Fillet – food with night vision effect
     Blocks:
-        Glowing Coral Block
         Shimmering Sand
         Coralstone
     Plants:
         Luminous Kelp
-        Pearlroot Vines
     Structures:
         Sunken Temple
         Coral Dome Ruins
@@ -271,10 +269,27 @@ Scorched Plateau – A barren, fiery wasteland with rivers of magma
     Items:
         Fireheart Stone – prevents fire damage when held
     Blocks:
+        Scorched Grass
+        Charred Stone
+        Basalt Spikes
+        Lava Resin
     Plants:
+        Reddend Bush
+        Ashen Bloom
+        Ember Vines
     Structures:
+        Hollow Crater – A massive collapsed lava vent with fire-resistant loot, unstable floors, and a central geyser of flame.
+        Furnace Monolith – A blackstone ruin with remnants of ancient smeltery magic; contains fire-themed redstone puzzles and magma traps.
     Advancements:
+        “Ashes to Ashes” – Step into the Scorched Plateau for the first time.
+        “Untouchable” – Survive falling into lava with the Fireheart Stone in your offhand.
+        “Fuel the Flame” – Use Lava Resin to craft fireproof armor.
+        “Scorchborn” – Kill a Blazebringer without taking fire damage.
     Mobs:
+        Blazebringer – A hulking, quadrupedal lava-beast with a cracked obsidian shell; immune to projectiles, charges with explosive force.
+        Cinder Wisp – Floating fire spirits that spawn in groups; harmless unless provoked, then explode violently.
+        Ash Leaper – Ambush predator that hides under scorched grass, springs out when players approach.
+        Crater Serpent – Rare, magma-dwelling serpent with a glowing core; leaves trails of lava when damaged.
 
 Hallowed Expanse – A peaceful, golden field filled with floating lights
     Items:

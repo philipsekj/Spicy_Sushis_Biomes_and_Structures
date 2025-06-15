@@ -27,6 +27,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)));
     public static final RegistryObject<Block> CORALSTONE = registerBlock("coralstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    //Ashen Wastes
+    public static final RegistryObject<Block> ASHEN_SHRUBS = registerBlock("ashen_shrubs",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH)));
+    public static final RegistryObject<Block> ASHY_DIRT = registerBlock("ashy_dirt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)));
     //Obsidian Dunes
     public static final RegistryObject<Block> VOLCANIC_ROCK = registerBlock("volcanic_rock",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
@@ -36,8 +41,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS)));
     public static final RegistryObject<Block> CHARRED_CACTUS = registerBlock("charred_cactus",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CACTUS)));
-    public static final RegistryObject<Block> ASHEN_SHRUBS = registerBlock("ashen_shrubs",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH)));
     public static final RegistryObject<Block> GLOWING_EMBER_MUSHROOM = registerBlock("glowing_ember_mushroom",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BROWN_MUSHROOM)));
 
@@ -110,7 +113,6 @@ public class ModBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
     public static final RegistryObject<Block> STRIPPED_ELDERWOOD_WOOD = registerBlock("stripped_elderwood_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
-
     public static final RegistryObject<Block> ELDERWOOD_PLANKS = registerBlock("elderwood_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
                 @Override
@@ -129,6 +131,13 @@ public class ModBlocks {
                 }
             });
 
+    //Scorched Plateau
+    public static final RegistryObject<Block> CHARRED_STONE = registerBlock("charred_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> SCORCHED_DIRT = registerBlock("scorched_dirt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final RegistryObject<Block> SCORCHED_GRASS = registerBlock("scorched_grass",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

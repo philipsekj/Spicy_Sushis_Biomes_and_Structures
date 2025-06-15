@@ -3,12 +3,10 @@ Shimmering Shallows – A biome with glowing coral, crystal-clear water, and lum
         Pearlescent Scale – used for crafting water-breathing armor
         Glowfish Fillet – food with night vision effect
     Blocks:
-        Glowing Coral Block
         Shimmering Sand
         Coralstone
     Plants:
         Luminous Kelp
-        Pearlroot Vines
     Structures:
         Sunken Temple
         Coral Dome Ruins
@@ -69,68 +67,285 @@ Eldertree Glade  – A mystical forest with massive ancient trees, glowing roots
 
 Gilded Marshlands – Swamps with golden lily pads, iridescent frogs, and murky reflective waters
     Items:
+        Golden Lily Pad – Can be placed on water; emits faint light and repels undead mobs in a small radius.
+        Iridescent Slime – Dropped by Iridescent Frogs; used for brewing or crafting slippery armor.
+        Marsh Trinket – Rare loot from chests, grants temporary water-walking when held.
+        Gilded Fang – Dropped by Marsh Serpents; used to craft venom-tipped weapons.
+        Swamp Tonic – Brewed using frog slime, lily nectar, and swamp herbs. Grants resistance to poison and blindness.
     Blocks:
+        Reflective Mire – A semi-liquid block that mirrors the sky and surroundings; entities sink slightly when walking on it.
+        Golden Lily Pad Block – Decorative block crafted from lily pads and gold; shimmers in the dark.
+        Peatstone – A dense, dark brown stone variant found below the waterline; used for tools and decorative bricks.
+        Glowing Reedwood – Unique wood from trees that emit a bioluminescent glow.
+        Iridescent Clay – Color-shifting block used in advanced decoration and potion alchemy setups.
     Plants:
+        Golden Lilies – Bioluminescent flowers growing on water; rare ingredient in alchemy.
+        Marsh Thistle – Thorny plant that inflicts poison when touched; used in traps or brewing.
+        Ghostcap Mushrooms – Faintly glowing fungi that disappear when exposed to direct sunlight.
+        Nectar Vines – Dangling vines from swamp trees; used in potions and bait for rare mobs.
+        Sorrow Ferns – Grey-blue fern clusters that rustle even without wind; rumored to whisper.
     Structures:
+        Frog Shrine – Ancient stone altar surrounded by golden lily pads, guarded by Iridescent Frogs. Loot includes rare items and lore scrolls.
+        Sunken Catacombs – Half-submerged ruins with hostile Marsh Wights and puzzle-locked chests.
+        Witch's Hollow – Hidden coven hut filled with rare brews and traps.
+        Hollow Reed Towers – Overgrown towers made of reedwood, once used to observe celestial events.
+        Bog Tomb – Sealed stone crypts with treasures, traps, and echoes of ancient royalty.
     Advancements:
+        "A Glimmer in the Gloom" – Discover the Gilded Marshlands biome.
+        "Padlocked Power" – Craft a Golden Lily Pad.
+        "Slime, Shimmer, and Shadow" – Brew a potion using Iridescent Slime.
+        "The Swamp Bites Back" – Get poisoned by a Marsh Thistle and survive.
+        "Blessing of the Frog God" – Find and activate a Frog Shrine.
+        "Echoes Beneath" – Loot all chests in a Sunken Catacomb without dying.
     Mobs:
+        Iridescent Frog – Passive; glows, jumps high, and drops Iridescent Slime. Can be bred with golden lilies.
+        Marsh Serpent – Aggressive aquatic predator; fast, venomous, and hard to spot in murky water.
+        Swamp Wight – Hostile undead that emerges from peatstone at night; weak to light but strong in numbers.
+        Bog Leech – Small, parasitic creature that latches onto players in water; can be shaken off or burned.
+        Glowmoth – Neutral flying mob that leaves behind glowing dust used in potions or light sources.
+        Mire Witch – Rare mini-boss found in Witch's Hollows. Casts swamp-themed spells and drops rare trinkets.
 
 Frozen Abyss – A deep, glacial biome with ice spires, underground ice caves, and frozen creatures
     Items:
+        Glacier Shard – Dropped from mining Abyssal Ice; used to craft high-tier frost weapons and tools.
+        Frozen Core – Dropped by Frozen Behemoths; used to craft powerful cold-resistant armor or power machines.
+        Shiver Dust – Milled from plants and ice moth wings; used in potions of slow falling and frostbite.
+        Abyssal Lantern – A magical light source that never melts ice and reveals invisible entities in the cold.
+        Cryo Elixir – A potion that grants immunity to freeze effects, slows nearby enemies, and increases damage in snow biomes.
     Blocks:
+        Abyssal Ice – A darker, dense form of ice that glows faintly and is slippery. Cannot be melted naturally.
+        Frostrock – A frozen variant of stone with icy veins. Used for building, tools, and enchanting altars.
+        Rimewood – Wood from hardy frost trees with a pale blue tint and frost-covered bark.
+        Cracked Glacier Glass – Transparent block from ancient ice caves; used in decorative and magical crafting.
+        Soulpermafrost – Found deep below the biome; emits ghostly fog particles and damages unprepared players.
+        Frozen Fungus Blocks – Organic ice-covered blocks from underground fungus clusters.
     Plants:
+        Frost Petals – Delicate flowers that shimmer under moonlight. Used in high-tier frost potions.
+        Glacial Vines – Ice-crusted vines that grow downward inside caves. Slippery and dangerous to climb.
+        Chillspore Fungus – Emits a cold mist that slows entities nearby; useful for traps or ambient decoration.
+        Snowmoss – Soft ground plant that muffles footstep sounds.
+        Rimeleaf – Thorny bushes with ice-blue leaves that freeze nearby mobs when harvested.
     Structures:
+        Icebound Tower – Tall, frozen ruin built by an ancient civilization. Contains enchanted frost gear and guardians.
+        Glacial Crypt – Buried structure beneath the snow housing Frozen Wights, puzzles, and rare treasure.
+        Frostroot Grove – Underground pocket forest of Rimewood and glowing fungus. Peaceful, but eerie.
+        Abyssal Rift – A massive, bottomless pit with floating ice chunks and winding stair paths. Leads to the deepest, most dangerous layers.
+        Behemoth Nest – Rare generation site of a Frozen Behemoth boss. Heavily guarded and loot-rich.
     Advancements:
+        "Chill to the Bone" – Enter the Frozen Abyss biome.
+        "The Cold Watches" – Discover an Abyssal Rift.
+        "Frozen in Time" – Mine Abyssal Ice with Silk Touch.
+        "Break the Core" – Defeat a Frozen Behemoth and collect its Frozen Core.
+        "No Warmth Left" – Survive 5 minutes in Soulpermafrost without cold resistance gear.
+        "Frostbitten Alchemy" – Brew a Cryo Elixir using biome-exclusive ingredients.
     Mobs:
+        Frozen Behemoth – Massive boss mob made of ice and bone. Uses ice shockwaves and freezing roars.
+        Shiverwraith – Ghostly ice spirit that phases through walls and slows players with cold auras.
+        Glacier Crawler – Insect-like creature that camouflages on ice and ambushes prey.
+        Frostling – Small, goblin-like creature that throws snow grenades and flees in groups.
+        Cryomoth – Passive glowing moth that drops Shiver Dust. Can be bottled for light.
+        Wailing Husk – Undead creature buried in ice. Screams to summon cold winds and disorient players.
 
 Veilwood Grove – A dark, misty biome with bioluminescent plants, eerie sounds, and hidden ruins
     Items:
+        Whisperbloom Petal – Used in potions to reveal hidden entities or secret doors.
+        Veilstone Fragment – Magical relic from ancient structures; used in enchanting or crafting spectral gear.
+        Echo Charm – An accessory that lets you hear ambient sounds revealing nearby mobs or hidden objects.
+        Lantern of Lost Light – Emits a glow that penetrates fog and unveils illusions within the grove.
+        Mossed Grimoire – A rare, forgotten spellbook with nature-based or illusionary spells (for modded content).
     Blocks:
+        Veilwood Logs/Planks – Wood from massive, twisted trees with faint bioluminescence and a purplish hue.
+        Ghostmoss Carpet – A soft, glimmering moss that muffles footsteps.
+        Misty Grass – Grass with a light fog particle effect. Harvestable with special shears.
+        Runed Stone – Found in ruins; carved with glowing glyphs that can activate hidden doors or effects.
+        Moonshade Leaves – Faintly glowing, translucent leaves that shift color based on the moon phase.
+        Fogroot Soil – Slightly spongy dirt that spreads mist when stepped on or disturbed.
     Plants:
+        Whisperblooms – Ghostly white flowers that emit quiet sounds when approached.
+        Glowthistle – Emits light and inflicts minor nausea if broken without tools.
+        Specter Ferns – Flickering, almost translucent ferns that vanish and reappear depending on time of day.
+        Veilvines – Hanging vines that glow faintly and slow movement when brushed against.
+        Mournshrooms – Fungi that emit low, haunting tones and are used in spectral potions.
     Structures:
+        Forgotten Sanctum – A sunken stone temple overrun by moss and fog. May contain Veilstone and eerie lore.
+        Watcher’s Perch – A tree-top ruin where an ancient guardian once stood vigil. Hidden loot and riddles.
+        Hollowed Circle – A clearing with standing stones and glowing runes. Used in ancient rituals.
+        Buried Library – Subterranean ruins filled with lost books, traps, and arcane puzzles.
+        Shrine of Echoes – Emits faint chanting. Unlocks secrets when the player mimics sounds or holds specific items.
     Advancements:
+        "Veilbound" – Discover Veilwood Grove.
+        "Through the Fog" – Craft a Lantern of Lost Light.
+        "Voices from the Moss" – Hear a Whisperbloom speak for the first time.
+        "The Silent Circle" – Solve the Hollowed Circle’s standing stone riddle.
+        "Echoes in the Dark" – Use the Echo Charm to uncover a hidden structure.
+        "Unseen, Unheard" – Walk through a Veilvine cluster undetected by mobs.
     Mobs:
+        Mistling – Small, elusive humanoid that appears when the player is alone. Friendly until provoked.
+        Phantom Stag – Majestic, ghostly deer. Leads players to secret locations, but vanishes if attacked.
+        Wispcaller – Floating spirit that uses illusions to defend ancient ruins. Weak to enchanted light sources.
+        Grovebound – Undead druids twisted by the forest. Casts fog magic and controls plant-based traps.
+        Shrouded Beast – Rare, large predator that becomes visible only in certain conditions (e.g., moonlight).
+        Mimic Bloom – Plant that disguises itself as another. Strikes when players get close.
 
 Lush Crater – A meteor impact site filled with alien flora, strange minerals, and a crashed spaceship
     Items:
+        Meteor Shard – Fragments of the original impactor. Used to craft advanced tools or reactor cores.
+        Xenogel – A glowing alien slime used in potions or to power special machinery.
+        Crater Compass – Always points to the biome’s central impact site. Reacts to nearby anomalies.
+        Neural Tendril – Rare drop from alien plants or mobs. Used in psychic-tech gear or as potion ingredients.
+        Bio-Circuit Crystal – Found in the spaceship wreckage. Can power redstone tech or open alien doors.
     Blocks:
+        Irradiated Stone – Slightly glowing stone, hums faintly. Used in high-tech or sci-fi builds.
+        Alien Alloy Block – Found in spacecraft debris. Resistant to explosions and used for crafting high-tier gear.
+        Xenodirt – Strange, soft soil that glows faintly in darkness and boosts plant growth.
+        Lumivine Crystals – Pulsing, plant-infused crystals that can be harvested for light or energy.
+        Crashmetal Debris – Decorative block variants from the ship's remains—useful for scrap-themed builds.
     Plants:
+        Plasma Bloom – Glowing flower that sparks with energy. Can be used in shock-based traps or potions.
+        Neurovine – Twisting vine that pulses with light. Used in crafting neural tech or advanced potions.
+        Sporecaps – Mushrooms that puff out spores when touched, causing short-term hallucinations or vision filters.
+        Gravethistle – Rare plant that reduces gravity in a small radius. Used in levitation recipes.
+        Creeping Lumenweed – Algae-like plant that grows across water and glows under moonlight.
     Structures:
+        Crashed Starcraft – The centerpiece of the biome. Contains rare alien loot, traps, and encrypted logs.
+        Spore Pod Cluster – Organic hive-like structures with hidden resources and parasitic mobs.
+        Xeno Obelisks – Ancient alien towers partially unearthed in the impact. Interact to reveal secrets or summon events.
+        Meteor Core Chamber – Deep beneath the crater lies the still-hot core of the meteor, guarded by strange energies.
+        Stabilization Pods – Abandoned human or alien tech trying to contain the spread of the biome.
     Advancements:
+        "Touchdown" – Discover the Lush Crater biome.
+        "Crash Site Scavenger" – Find and enter the Crashed Starcraft.
+        "Xenobotanist" – Collect one of each alien plant type.
+        "It’s Alive!" – Activate a Bio-Circuit Crystal-powered machine.
+        "Graviton Mastery" – Harvest and use Gravethistle to float for 30 seconds.
+        "Brainwave Hijack" – Brew a potion using a Neural Tendril and survive the side effects.
     Mobs:
+        Plasmite – Small glowing insect-like creature that swarms in groups. Drops Xenogel.
+        Craterborn – Semi-humanoid alien hybrids mutated by the impact. Territorial and intelligent.
+        Spore Walker – Lumbers slowly and emits clouds of mind-altering spores.
+        Gravity Leech – Floating entity that attaches to players and alters their movement speed and jump.
+        Core Sentinel – Semi-mechanical guardian buried with the meteor core. Aggressive, tanky, and rare.
+        Symbiote Vines – Living plants that lash out when players come close. Can regenerate unless burned.
 
 Obsidian Dunes – A desert of black glass and volcanic rock
     Items:
-        Molten Core – fuels furnaces indefinitely
+        Molten Core – Fuels furnaces indefinitely. Also used to craft fireproof tools or magma-based machines.
+        Glassfang – A jagged weapon crafted from obsidian shards. High crit damage, chance to cause bleeding.
+        Seared Husk Leather – Drop from burnt creatures; used to craft heatproof armor.
+        Volcanic Resin – Sticky, flammable fluid found in deep vents. Used in explosives or fuel.
+        Ashen Dust – Brewing ingredient for fire-resistance or blindness cloud effects.
     Blocks:
-        Volcanic Rock
-        Cobbled Volcanic Rock
+        Volcanic Rock – Basaltic, black stone found throughout the biome. Slightly heat-emitting.
+        Cobbled Volcanic Rock – Cracked and usable for crafting blast-resistant blocks.
+        Obsidian Glass – Naturally formed, semi-transparent black glass with a mirror sheen. Can cut mobs walking on it without boots.
+        Cracked Magma Tile – Decorative block that glows and crackles. Emits damage if stepped on without fire-resistance.
+        Sulfuric Sand – Yellow-tinted sand that ignites easily. Explosive when mixed with Volcanic Resin.
     Plants:
-        Charred Cactus
-        Ashen Shrubs
-        Glowing Ember Mushroom
+        Charred Cactus – Tall, blackened cactus that stores boiling liquid. Can be tapped or used for traps.
+        Ashen Shrubs – Dry, leafless shrubs that crumble into ash when harvested. Drops Ashen Dust.
+        Glowing Ember Mushroom – Emits low red-orange light. Used in explosive potions and fire-based brews.
+        Smokegrass – Rare, dark grey plant that emits smoke particles. Harmless, but great for atmosphere or cover.
+        Volcanic Bloom – Rare flowering plant that bursts in sparks when harvested. Used in high-end potions or dyes.
     Structures:
+        Glassspire Ruins – Ancient obsidian towers, now broken and buried by black dunes. Contains rare fireproof loot.
+        Cinder Vaults – Underground chambers containing Volcanic Resin, treasure, and explosive traps.
+        Ashen Forge – Remnants of a lava-powered smithy. Still burns with embers.
+        Obsidian Skull Monoliths – Massive, eerie statues once worshipped. Activate for fire-based rituals or buffs.
+        Sunken Lava Wells – Crater-like pits that occasionally erupt. Contains molten ores and hostile mobs.
     Advancements:
+        "Burning Sands" – Enter the Obsidian Dunes biome.
+        "Blacker Than Night" – Walk across a full dune of Obsidian Glass without armor.
+        "Ashes to Ashes" – Harvest an Ashen Shrub and use the dust in a potion.
+        "The Core Burns Forever" – Fuel a furnace with a Molten Core.
+        "Tread Lightly" – Survive a Sunken Lava Well eruption.
+        "Glassbreaker" – Craft a full set of Glassfang gear.
     Mobs:
+        Cinderling – Small, fast-moving creature made of burning ash. Explodes on death like a firework.
+        Obsidian Scuttler – Spider-like creature with glassy obsidian legs. Immune to knockback, drops shards.
+        Blisterfiend – Fire-elemental that emerges from Sulfuric Sand. Spits lava projectiles.
+        Ash Wraith – Ghostly humanoid that rises from dunes at night. Weak to water, strong in packs.
+        Lava Serpent – Rare sub-boss that slithers through molten rock pools. Summons firestorms and spawns Cinderlings.
+        Cracked Golem – Stone-and-lava construct guarding the Cinder Vaults. Slow, tanky, and hits like a boulder.
 
 Verdant Cliffs – Towering cliffs covered in lush moss and waterfalls
     Items:
-        Wind-Drift Petals – slow fall effect when held
+        Wind-Drift Petals – Holding these grants a slow fall effect. Used in lightness-based potions or feather boots.
+        Mistleaf Wraps – Lightweight armoring made from waterfall flora. Grants minor fall resistance and swim speed.
+        Echoroot Extract – Potion ingredient that enhances hearing and echolocation (detects nearby mobs through walls).
+        Cliffside Grapple – A rare item used to scale walls more quickly (could be a consumable or gear item).
+        Updraft Crystal – Can be placed to create a temporary air current that lifts players or mobs upward.
     Blocks:
+        Cliffstone – A light-gray, streaked stone exclusive to the biome. Ideal for masonry or peaceful builds.
+        Mossy Cliffstone – Naturally weathered variant with flowing green textures.
+        Wet Cobblestone – Found near waterfalls; shimmers and can grow moss over time.
+        Mistglass – A translucent decorative block formed from minerals near waterfalls. Slight shimmer and particle effect.
+        Blooming Moss – Grows on walls and cliffs, changes color based on weather and emits particles when stepped on.
     Plants:
-        Vibrant Wildflower
+        Vibrant Wildflower – A dazzling plant that comes in many colors. Used in dye crafting and some potions.
+        Mist Ferns – Elegant ferns found near water sources; decorative and harvestable.
+        Windgrass – Delicate plant that sways more dramatically than other foliage. Used in lightness-themed brews.
+        Cliffroot Vines – Long, flowering vines that grow downward from cliffs; climbable and sometimes drop petals.
+        Sunbloom Lily – Found only on high ledges facing the sun. Used in crafting "Skyshine" potions.
     Structures:
+        Wind-Caller’s Altar – A stone circle on a high ledge. Used to summon an updraft event or receive wind-based buffs.
+        Cliff Dweller Ruins – Remnants of ancient homes built into the cliffside, with lore books and Wind-Drift Petals.
+        Moss-Covered Caverns – Hidden caves behind waterfalls. Contain lush vegetation, glowing crystals, and unique mobs.
+        Skywell – A deep vertical shaft with water at the bottom and roots or vines leading to hidden areas.
+        Hanging Gardens – Rare floating ledges filled with rare wildflowers and peaceful mobs.
     Advancements:
+        "Cliffhanger" – Enter the Verdant Cliffs biome.
+        "Just a Breeze" – Hold Wind-Drift Petals while falling more than 30 blocks and survive.
+        "Waterfall Whisperer" – Find the Moss-Covered Caverns behind a waterfall.
+        "Borne by the Wind" – Use an Updraft Crystal to reach a high ledge.
+        "Echo of the Heights" – Craft and drink a potion using Echoroot Extract.
+        "Touch the Sky" – Reach the top of a Hanging Garden.
     Mobs:
+        Cliff Sprite – Small, peaceful flying creature that follows players holding flowers. Drops Wind-Drift Petals.
+        Mossback Ram – A mountain goat variant with mossy fur and stronger knockback. Can be tamed.
+        Glimmerfly – Bioluminescent insect that appears in caverns and at dusk. Used in potion crafting.
+        Verdant Guardian – Rare, neutral elemental creature found near altars. Attacks if provoked.
+        Rockcreeper – Camouflaged cliff-dwelling mob that ambushes players climbing. Drops Cliffstone Chips.
+        Echo Wisp – Ethereal creature that emits wind sounds and mimics player actions. Fades when hit.
 
 Twilight Expanse – A dimension-like biome stuck in eternal dusk
     Items:
-        Shadowfruit – grants night vision and invisibility
+        Shadowfruit – A mysterious, semi-transparent fruit that grants Night Vision and Invisibility for 45 seconds.
+        Twilight Silk – Dropped from wraith-like mobs. Used to craft ethereal armor or charm items.
+        Duskgem Shard – A glowing crystal piece used in potion brewing, enchanting, or dimension-based crafting.
+        Echo Lens – An item that reveals invisible or cloaked structures in the Twilight Expanse.
+        Stellar Husk – A rare drop from Twilight Golems; used in upgrading certain armor or tools with voidlike traits.
     Blocks:
+        Duskgem Ore – Found only in exposed surfaces or caves. Pulses with purple-blue light.
+        Twilight Soil – Soft, dark ground that glows faintly and spreads to nearby dirt. Plants grow faster on it at night.
+        Umbrabark Wood – A black-and-indigo wood with shifting textures. Great for eerie builds.
+        Gloomsand – Dark purple sand with faint sparkles. Behaves like normal sand but gives off particles when walked on.
+        Voidglass – A translucent, void-black glass that distorts what you see through it. Decorative and ominous.
     Plants:
+        Shadowfruit Vine – The source of Shadowfruit. Only grows in this biome, often on cliffs or in glades.
+        Duskleaf Fern – Absorbs light rather than reflecting it. Used in stealth potions.
+        Whisperbulbs – Bulbous plants that softly hum and glow. Can be harvested for light or tuning rituals.
+        Moonlace Petals – Glowing, silver-veined petals that shimmer under starlight. Used in wind or night potions.
+        Flickergrass – Tall, waving grass that sometimes flickers between visible and invisible states.
     Structures:
+        The Dimming Spires – Massive, ancient towers built from Voidglass and Umbrabark. Full of twisting halls and shifting rooms.
+        Lunar Craters – Shallow, impact-like craters with Duskgem clusters and rare mobs.
+        Hollowlight Grove – A haunting grove where Whisperbulbs grow densely. Spirits gather here.
+        Shadowroot Temple – A half-submerged ruin dedicated to a forgotten dusk deity. Puzzle-based with rewards.
+        Echo Caves – Dimly lit cave systems with light-distorting walls, illusory dead-ends, and phase-shifting mobs.
     Advancements:
+        "Between the Light" – Enter the Twilight Expanse for the first time.
+        "Fruit of the Forgotten" – Eat a Shadowfruit and vanish without a trace.
+        "Echoes in the Fog" – Use the Echo Lens to reveal a hidden structure.
+        "Lightless Green" – Plant a Shadowfruit Vine on regular soil and grow it to full size.
+        "Nocturne Bound" – Craft a full set of armor using Twilight Silk or Stellar Husks.
+        "The Flickering Path" – Navigate a Dimming Spire without taking damage from its traps.
     Mobs:
+        Twilight Wisp – Floating light-spirits that hover around glowing plants. Passive unless provoked.
+        Gloamhound – Shadowy canid creatures with flickering forms. Hunt in packs and resist arrows.
+        Eclipsed Revenant – Spectral humanoid that phases in and out of reality. High evasion, drops Twilight Silk.
+        Duskgazer – Tall, statue-like mobs that come to life if stared at for too long. Guard Shadowroot Temples.
+        Voidflutter – Moth-like mob that flies in erratic patterns and drops Moonlace Petals.
+        Twilight Golem – Rare, powerful mob found near Dimming Spires. Slow, tanky, and emits a dusk aura that drains light.
 
 Stormy Highlands – Peaks constantly struck by lightning
     Items:
@@ -271,10 +486,27 @@ Scorched Plateau – A barren, fiery wasteland with rivers of magma
     Items:
         Fireheart Stone – prevents fire damage when held
     Blocks:
+        Scorched Grass
+        Charred Stone
+        Basalt Spikes
+        Lava Resin
     Plants:
+        Reddend Bush
+        Ashen Bloom
+        Ember Vines
     Structures:
+        Hollow Crater – A massive collapsed lava vent with fire-resistant loot, unstable floors, and a central geyser of flame.
+        Furnace Monolith – A blackstone ruin with remnants of ancient smeltery magic; contains fire-themed redstone puzzles and magma traps.
     Advancements:
+        “Ashes to Ashes” – Step into the Scorched Plateau for the first time.
+        “Untouchable” – Survive falling into lava with the Fireheart Stone in your offhand.
+        “Fuel the Flame” – Use Lava Resin to craft fireproof armor.
+        “Scorchborn” – Kill a Blazebringer without taking fire damage.
     Mobs:
+        Blazebringer – A hulking, quadrupedal lava-beast with a cracked obsidian shell; immune to projectiles, charges with explosive force.
+        Cinder Wisp – Floating fire spirits that spawn in groups; harmless unless provoked, then explode violently.
+        Ash Leaper – Ambush predator that hides under scorched grass, springs out when players approach.
+        Crater Serpent – Rare, magma-dwelling serpent with a glowing core; leaves trails of lava when damaged.
 
 Hallowed Expanse – A peaceful, golden field filled with floating lights
     Items:

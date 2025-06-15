@@ -11,6 +11,7 @@ import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.NotNull;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -22,8 +23,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.VOLCANIC_ROCK);
         blockWithItem(ModBlocks.VOLCANIC_COBBLED_ROCK);
         //blockWithItem(ModBlocks.VOLCANIC_GLASS);
+
         blockWithItem(ModBlocks.SHIMMERING_SAND);
         blockWithItem(ModBlocks.CORALSTONE);
+        blockWithItem(ModBlocks.ASHY_DIRT);
+
+        blockWithItem(ModBlocks.CHARRED_STONE);
+        blockWithItem(ModBlocks.SCORCHED_DIRT);
+        blockWithItemBottomTop(ModBlocks.SCORCHED_GRASS,
+                modLoc("block/scorched_grass"),
+                modLoc("block/scorched_grass_bottom"),
+                modLoc("block/scorched_grass_top")
+        );
 
         saplingBlock(ModBlocks.ASHEN_SHRUBS);
         saplingBlock(ModBlocks.GLOWING_EMBER_MUSHROOM);
@@ -77,5 +88,16 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
+    }
+    private void blockWithItemBottomTop(RegistryObject<Block> blockRegistryObject, ResourceLocation side, ResourceLocation bottom, ResourceLocation top) {
+        simpleBlockWithItem(
+                blockRegistryObject.get(),
+                models().cubeBottomTop(
+                        name(blockRegistryObject.get()),
+                        side,
+                        bottom,
+                        top
+                )
+        );
     }
 }

@@ -48,6 +48,7 @@ public class Ssbas {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.SHIMMERING_SAND);
             event.accept(ModBlocks.CORALSTONE);
+            event.accept(ModBlocks.ASHY_DIRT);
         }
     }
 
