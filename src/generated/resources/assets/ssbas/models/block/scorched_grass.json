@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "ssbas:block/scorched_grass_bottom",
+    "side": "ssbas:block/scorched_grass",
+    "top": "ssbas:block/scorched_grass_top"
+  }
+}
