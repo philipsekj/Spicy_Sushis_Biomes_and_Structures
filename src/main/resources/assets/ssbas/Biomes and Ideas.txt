@@ -349,142 +349,338 @@ Twilight Expanse – A dimension-like biome stuck in eternal dusk
 
 Stormy Highlands – Peaks constantly struck by lightning
     Items:
-        Charged Ember – stores lightning for later use
+        Charged Ember – Stores lightning energy; used to power electric traps or tools.
+        Stormcore Crystal – Rare crystal that enhances lightning-based magic.
     Blocks:
+        Thunderstone – Emits static charges; attracts lightning strikes.
+        Conductive Ore – Metallic ore essential for electric machinery.
+        Windshaped Rock – Eroded stone shaped by constant storms.
     Plants:
+        Static Thistle – Sparks electricity when touched.
+        Stormvine – Vines that pulse with stored energy.
     Structures:
+        Skyshock Spire – Tower designed to harness and channel lightning.
+        Cloud Altar – Shrine that can summon storms.
     Advancements:
+        “Lightning Rod” – Be struck by lightning while holding a Charged Ember.
+        “Clash of Clouds” – Survive a full storm in the Stormy Highlands.
+        “Electric Revelation” – Activate a Cloud Altar.
     Mobs:
+        Storm Wraith – Lightning-infused ghost attacking during storms.
+        Cloud Serpent – Electric flying serpent riding updrafts.
+        Thunderling – Small elemental charged with electricity.
 
 Crystalline Hollows – Underground caves filled with glowing crystals
     Items:
-        Prism Dust – used in powerful enchantments
+        Prism Dust – Used in powerful enchantments.
+        Crystal Shard – Component for crafting crystalline weapons.
     Blocks:
+        Lumen Crystal – Glowing crystals emitting colored light.
+        Hollowstone – Resonant porous stone.
+        Resonance Ore – Used in sound-based magical devices.
     Plants:
+        Crystal Bloom – Luminescent crystal-like flower.
+        Echo Moss – Emits faint sounds when stepped on.
     Structures:
+        Crystal Nexus – Cavern temple with light puzzles.
+        Echo Vault – Sound-locked treasure chamber.
     Advancements:
+        “Hollow Light” – Discover the Crystalline Hollows.
+        “Tone of Power” – Use Prism Dust in an enchantment.
+        “Cracked the Code” – Solve an Echo Vault’s puzzle.
     Mobs:
+        Crystal Warden – Golem protecting the Nexus.
+        Shardling – Crawling crystal creatures.
+        Echo Sprite – Passive sound-emitting spirits.
 
 Blighted Bog – A poisonous swamp with bubbling green pools
     Items:
-        Toxic Bloom – used for potions of decay
+        Toxic Bloom – Ingredient for decay potions.
+        Blight Muck – Sticky fluid used in corrosive traps.
+        Spore Sacs – Used in blindness or decay grenades.
     Blocks:
+        Blighted Mud – Poisons and slows entities.
+        Festerstone – Slimy green rock oozing blight.
     Plants:
+        Decayroot – Roots draining health.
+        Sporeshroom – Emits harmful spores.
     Structures:
+        Rot Temple – Poisonous temple filled with traps.
+        Swamp Cradle – Nest spawning Blightspawn mobs.
     Advancements:
+        “Muckwalker” – Enter the Blighted Bog.
+        “Breathless” – Survive 30 seconds in a spore cloud.
+        “Rot from Within” – Destroy a Swamp Cradle.
     Mobs:
+        Blightspawn – Twisted swamp creatures.
 
 Sanguine Thicket – A dark forest with red-leafed trees and an eerie aura
     Items:
-        Bloodwood Bark – enhances weapon damage
+        Bloodwood Bark – Enhances weapon damage.
+        Crimson Nectar – Used in blood magic potions.
     Blocks:
+        Bloodwood Log – Deep red wood with dark veins.
+        Scarlet Moss – Glowing moss covering forest floors.
     Plants:
+        Hemlock Bloom – Toxic flower used in poisons.
+        Redvine – Vines that cause hallucinations.
     Structures:
+        Blood Altar – Site of dark rituals.
+        Withered Grove – Ruins overtaken by red foliage.
     Advancements:
+        “Blood Roots” – Enter the Sanguine Thicket.
+        “Crimson Curse” – Drink a potion made from Crimson Nectar.
+        “Dark Harvest” – Defeat a Blood Thorn Warden.
     Mobs:
+        Blood Thorn Warden – Aggressive forest guardian.
+        Scarlet Stalker – Stealthy predator blending with red leaves.
+        Hemlock Wisp – Phasing spirit that causes confusion.
 
 Ethereal Steppe – A floating grassland biome with shifting, spectral flora
     Items:
-        Cloudgrass – grants a temporary jump boost when eaten
+        Cloudgrass – Grants temporary jump boost.
+        Spirit Dew – Used in ethereal potions.
     Blocks:
+        Mistgrass – Soft grass that shifts appearance.
+        Phantom Stone – Ethereal stone that phases intermittently.
     Plants:
+        Spectral Fern – Glows faintly, used in magic.
+        Wispflower – Attracts ghostly mobs.
     Structures:
+        Skyshard Ruins – Remnants of ancient floating structures.
+        Spirit Circle – Ritual site that opens portals.
     Advancements:
+        “Step Lightly” – Enter the Ethereal Steppe.
+        “Leap of Faith” – Use Cloudgrass to jump between floating isles.
+        “Portal Whisper” – Activate a Spirit Circle.
     Mobs:
+        Steppe Wisp – Gentle floating spirits.
+        Phantom Stalker – Aggressive ghostly predator.
+        Mistwalker – Elusive spectral herbivore.
 
 Charred Hollow – A dead forest with smoldering tree stumps
     Items:
-        Emberwood Planks – fireproof building material
+        Emberwood Planks – Fireproof building material.
+        Ashen Bark – Used in fire-resistant potions.
     Blocks:
+        Charred Log – Blackened, brittle wood.
+        Smoldering Soil – Glowing dirt with slow burn.
     Plants:
+        Emberthorn – Thorny shrub that ignites on touch.
+        Ash Fern – Dry, brittle ferns.
     Structures:
+        Burnt Watchtower – Ruined lookout with fire remnants.
+        Cinder Ruins – Crumbled buildings with ember traps.
     Advancements:
+        “Ashes to Ashes” – Enter Charred Hollow.
+        “Fireproof” – Craft with Emberwood Planks.
+        “Survivor” – Escape a burning ember trap.
     Mobs:
+        Cinder Hound – Fiery canine predator.
+        Ash Wraith – Ghostly being of smoke and flame.
+        Scorch Beetle – Crawling insect that explodes when threatened.
 
 Deep Rift – A massive canyon with abandoned mineshafts and lava lakes
     Items:
-        Abyssal Ore – used for powerful tools and armor
+        Abyssal Ore – Used for powerful tools and armor.
+        Rift Crystal – Used in dimensional crafting.
     Blocks:
+        Riftstone – Dark stone with glowing veins.
+        Magma Brick – Hardened bricks from cooled lava.
     Plants:
+        Cavevine – Climbing plant hanging in shafts.
+        Rift Fern – Glowing fern found near lava.
     Structures:
+        Abandoned Mineshaft – Dangerous tunnels with loot.
+        Lavafall Basin – Pools of lava at canyon base.
     Advancements:
+        “Down the Rift” – Enter Deep Rift.
+        “Magma Survivor” – Cross a lava lake safely.
+        “Miner’s Luck” – Find rare Abyssal Ore.
     Mobs:
+        Rift Spider – Large cave spider variant.
+        Lava Skulker – Ambush predator hiding near lava.
+        Deep Crawlers – Small, fast cave insects.
 
 Amber Glade – A forest with golden, resin-covered trees
     Items:
-        Sticky Resin – can be crafted into an unbreakable glue
+        Sticky Resin – Used to craft unbreakable glue.
+        Golden Sap – Used in healing potions.
     Blocks:
+        Amber Bark – Shiny golden tree bark.
+        Resin Crystal – Hardened resin with magical properties.
     Plants:
+        Honey Blossom – Sweet-smelling flowers attracting bees.
+        Resinweed – Thick plant dripping sticky resin.
     Structures:
+        Sap Collector’s Hut – Small cabin for harvesting resin.
+        Amber Shrine – Glowing altar made of resin crystals.
     Advancements:
+        “Sticky Fingers” – Collect Sticky Resin.
+        “Golden Touch” – Craft an item using Golden Sap.
+        “Bee Keeper” – Find a Honey Blossom grove.
     Mobs:
+        Resin Bear – Large creature with resin-coated fur.
+        Golden Bee – Pollinates plants; can be harvested for honey.
+        Sapling Sprite – Small forest spirits protecting trees.
 
 Frostbitten Badlands – A frozen wasteland with towering ice spires
     Items:
-        Permafrost Shard – used to craft frost-resistant gear
+        Permafrost Shard – Used to craft frost-resistant gear.
+        Ice Crystal – Used in freezing spells.
     Blocks:
+        Frostspike – Tall, sharp ice formations.
+        Permafrost Soil – Frozen dirt that slows movement.
     Plants:
+        Ice Fern – Frosty fern that freezes nearby mobs.
+        Snowcap Moss – Glowing moss growing on ice.
     Structures:
+        Ice Watch – Tower built from ice spires.
+        Frozen Tomb – Ancient burial site sealed in ice.
     Advancements:
+        “Frozen Ground” – Enter Frostbitten Badlands.
+        “Shard Collector” – Collect 10 Permafrost Shards.
+        “Cold Survivor” – Survive freezing damage without armor.
     Mobs:
+        Frost Warden – Ice elemental guardian.
+        Snow Stalker – Predator blending into snowy terrain.
+        Chill Spider – Ice-coated cave spider variant.
 
 Veilwood Hollow – A mystical forest where trees phase in and out of existence
     Items:
-        Phasing Timber – allows players to pass through for a few seconds
+        Phasing Timber – Allows passage through solid objects temporarily.
+        Ghostbark – Used in spectral crafting.
     Blocks:
+        Phasing Log – Wood that appears and disappears intermittently.
+        Mistleaf – Leaves that shimmer and flicker.
     Plants:
+        Fadeflower – Petals vanish and reappear.
+        Spirit Vine – Twisting vine used in illusions.
     Structures:
+        Phantom Glade – Clearing where trees vanish unpredictably.
+        Ghostlight Shrine – Emits soft glowing light that reveals hidden paths.
     Advancements:
+        “Through the Veil” – Enter Veilwood Hollow.
+        “Ghost Walker” – Use Phasing Timber to pass through a wall.
+        “Light the Way” – Activate Ghostlight Shrine.
     Mobs:
+        Veil Stalker – Shadowy predator that phases in and out.
+        Hollowling – Small spirits that cause hallucinations.
+        Wisp Thorn – Aggressive plant-like mob emitting spectral needles.
 
 Drifting Wastes – A desert with floating sand particles and mirage effects
     Items:
-        Mirage Glass – makes invisible blocks visible
+        Mirage Glass – Reveals invisible blocks.
+        Sandshade Dust – Used in invisibility potions.
     Blocks:
+        Floating Sand – Sand particles that hover and shift.
+        Mirage Stone – Reflective, heat-warped rock.
     Plants:
+        Mirage Cactus – Cacti that appear and disappear.
+        Dust Bloom – Flower that disperses blinding dust.
     Structures:
+        Mirage Oasis – Illusory water pools hiding treasures.
+        Sandspire – Tall tower shifting with the wind.
     Advancements:
+        “Desert Mirage” – Enter Drifting Wastes.
+        “Illusionist” – Use Mirage Glass to reveal a hidden structure.
+        “Oasis Seeker” – Find and drink from a Mirage Oasis.
     Mobs:
+        Sandshade – Phantom-like creatures that steal light.
+        Dust Scorpion – Camouflaged predator.
+        Mirage Serpent – Snake that flickers invisibly.
 
 Cursed Steppe – A biome filled with ghostly whispers and skeletal remains
     Items:
-        Soul Fragment – used to summon lost spirits
+        Soul Fragment – Used to summon lost spirits.
+        Wraith Essence – Used in dark magic crafting.
     Blocks:
+        Bone Dust – Powdered remains used in rituals.
+        Haunted Stone – Emits eerie whispers.
     Plants:
+        Whispergrass – Grass that rustles without wind.
+        Deathbloom – Black flowers that drain life.
     Structures:
+        Spirit Cairn – Piles of bones used as altars.
+        Forgotten Graves – Old burial sites with spectral guardians.
     Advancements:
+        “Whispered Warnings” – Enter the Cursed Steppe.
+        “Spirit Binder” – Use Soul Fragments to summon a Wraith.
+        “Restless Dead” – Defeat a spectral guardian.
     Mobs:
+        Wraith – Aggressive ghostly entity.
+        Bonehound – Undead canine predator.
+        Spirit Shade – Elusive apparition that causes fear.
 
 Tanglewood Mire – A thick, tangled swamp with massive roots
     Items:
-        Vinebound Charm – gives automatic wall climbing ability
+        Vinebound Charm – Grants wall climbing.
+        Mire Essence – Used in poison potions.
     Blocks:
+        Rootbone – Hardened roots with bone-like texture.
+        Mudvine – Sticky vines that slow movement.
     Plants:
+        Tanglevine – Thick vines entangling players.
+        Poisoncap – Mushrooms that release toxic spores.
     Structures:
+        Rooted Hollow – Ancient hollow tree inhabited by spirits.
+        Mire Shrine – Swamp altar for dark offerings.
     Advancements:
+        “Rooted” – Enter Tanglewood Mire.
+        “Climber” – Use Vinebound Charm to scale a wall.
+        “Toxic Touch” – Survive Poisoncap spores.
     Mobs:
+        Mirelurker – Camouflaged swamp predator.
+        Vine Wraith – Spirit controlling swamp vines.
+        Bogtoad – Large amphibious mob that spits poison.
 
 Glacial Abyss – A deep ice trench with frozen shipwrecks
     Items:
-        Frostcore Gem – enhances ice-based magic and weapons
+        Frostcore Gem – Enhances ice magic.
+        Ice Shard – Used in frost weapons.
     Blocks:
+        Abyssal Ice – Dense, glowing ice.
+        Frozen Timber – Preserved ship wood.
     Plants:
+        Frost Bloom – Cold-resistant flowers.
+        Iceweed – Aquatic plant growing in icy waters.
     Structures:
+        Sunken Wreck – Frozen ship containing loot.
+        Ice Cavern – Natural ice caves with frost traps.
     Advancements:
+        “Frozen Depths” – Enter Glacial Abyss.
+        “Icebound” – Find a Sunken Wreck.
+        “Frost Mastery” – Craft a Frostcore Gem.
     Mobs:
+        Ice Wraith – Ghosts haunting shipwrecks.
+        Frostback Crab – Armored crustacean.
+        Glacial Serpent – Rare sea serpent.
 
 Luminant Thicket – A jungle with glowing fungi and bioluminescent creatures
     Items:
-        Glowcap Spores – provides night vision when consumed
+        Glowcap Spores – Grants night vision.
+        Luminescent Nectar – Used in healing potions.
     Blocks:
+        Glowshroom – Large glowing mushrooms.
+        Biolume Logs – Trees with glowing bark.
     Plants:
+        Luminous Fern – Glowing fern.
+        Shimmervine – Vines that sparkle.
     Structures:
+        Fungal Temple – Overgrown temple with glowshrooms.
+        Biolume Grove – Clearing filled with glowing flora.
     Advancements:
+        “Light in the Dark” – Enter Luminant Thicket.
+        “Glow Spores” – Collect Glowcap Spores.
+        “Temple Secrets” – Explore the Fungal Temple.
     Mobs:
+        Glow Fungus – Passive light sources.
+        Lumisprite – Small glowing insect.
+        Thicket Stalker – Camouflaged predator.
 
 Scorched Plateau – A barren, fiery wasteland with rivers of magma
     Items:
-        Fireheart Stone – prevents fire damage when held
+        Fireheart Stone – Prevents fire damage.
     Blocks:
         Scorched Grass
         Charred Stone
@@ -510,9 +706,22 @@ Scorched Plateau – A barren, fiery wasteland with rivers of magma
 
 Hallowed Expanse – A peaceful, golden field filled with floating lights
     Items:
-        Blessed Bloom – revives a player once when carried
+        Blessed Bloom – Revives a player once when carried.
+        Golden Dust – Used in light-based enchantments.
     Blocks:
+        Radiant Grass – Golden grass that glows softly.
+        Floating Lights – Tiny particles hovering above the ground.
     Plants:
+        Lightweed – Glowing plants that attract peaceful mobs.
+        Golden Poppy – Rare flower with healing properties.
     Structures:
+        Luminary Circle – Stone ring where floating lights congregate.
+        Peaceful Shrine – Small temple emitting calming light.
     Advancements:
+        “Lightbringer” – Enter the Hallowed Expanse.
+        “Glow in the Dark” – Collect Floating Lights.
+        “Blessed Arrival” – Use a Blessed Bloom to revive.
     Mobs:
+        Lightling – Small glowing creatures.
+        Glow Hare – Passive mob emitting soft light.
+        Radiant Stag – Rare, majestic creature.

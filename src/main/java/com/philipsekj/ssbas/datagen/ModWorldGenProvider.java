@@ -14,7 +14,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModWorldGenProvider extends DatapackBuiltinEntriesProvider {
     public static final RegistrySetBuilder BUILDER = new RegistrySetBuilder()
-            .add(Registries.BIOME, ModBiomes::boostrap);
+            .add(Registries.BIOME, ModBiomes::bootstrap);
     public ModWorldGenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries, BUILDER, Set.of(Ssbas.MOD_ID));
     }

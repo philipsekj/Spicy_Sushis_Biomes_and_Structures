@@ -3,6 +3,7 @@ package com.philipsekj.ssbas;
 import com.mojang.logging.LogUtils;
 import com.philipsekj.ssbas.block.ModBlocks;
 import com.philipsekj.ssbas.item.ModItems;
+import com.philipsekj.ssbas.worldgen.biome.ModBiomes;
 import com.philipsekj.ssbas.worldgen.biome.ModTerrablender;
 import com.philipsekj.ssbas.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,14 +35,15 @@ public class Ssbas {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
-
-        ModTerrablender.registerBiomes();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
-            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
+            ModBiomes.bootstrap(context); // <-- this must run!
+            ModTerrablender.registerBiomes();
         });
+
+
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

@@ -1,13 +1,9 @@
 package com.philipsekj.ssbas.worldgen.biome;
 
 import com.philipsekj.ssbas.Ssbas;
-import com.philipsekj.ssbas.worldgen.ModPlacedFeatures;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.data.worldgen.BootstapContext;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.Musics;
@@ -15,18 +11,12 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.biome.*;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.levelgen.GenerationStep;
-import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.configurations.CountConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
-import net.minecraft.world.level.levelgen.placement.BiomeFilter;
-import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraft.world.level.levelgen.placement.RarityFilter;
+import net.minecraftforge.registries.RegisterEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
 
 import static net.minecraft.core.registries.Registries.PLACED_FEATURE;
-import static net.minecraft.data.worldgen.placement.PlacementUtils.inlinePlaced;
 
 public class ModBiomes {
     public static final ResourceKey<Biome> SHIMMERING_SHALLOWS = ResourceKey.create(Registries.BIOME,
@@ -37,13 +27,79 @@ public class ModBiomes {
             new ResourceLocation(Ssbas.MOD_ID, "scorched_plateau"));
     public static final ResourceKey<Biome> Eldertree_Glade = ResourceKey.create(Registries.BIOME,
             new ResourceLocation(Ssbas.MOD_ID, "eldertree_glade"));
+    public static final ResourceKey<Biome> Gilded_Marshlands = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "gilded_marshlands"));
+    public static final ResourceKey<Biome> Frozen_Abyss = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "frozen_abyss"));
+    public static final ResourceKey<Biome> Veilwood_Grove = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "veilwood_grove"));
+    public static final ResourceKey<Biome> Lush_Crater = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "lush_crater"));
+    public static final ResourceKey<Biome> Obsidian_Dunes = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "obsidian_dunes"));
+    public static final ResourceKey<Biome> Verdant_Cliffs = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "verdant_cliffs"));
+    public static final ResourceKey<Biome> Twilight_Expanse = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "twilight_expanse"));
+    public static final ResourceKey<Biome> Stormy_Highlands = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "stormy_highlands"));
+    public static final ResourceKey<Biome> Crystalline_Hollows = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "crystalline_hollows"));
+    public static final ResourceKey<Biome> Blighted_Bog = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "blighted_bog"));
+    public static final ResourceKey<Biome> Sanguine_Thicket = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "sanguine_thicket"));
+    public static final ResourceKey<Biome> Ethereal_Steppe = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "ethereal_steppe"));
+    public static final ResourceKey<Biome> Charred_Hollow = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "charred_hollow"));
+    public static final ResourceKey<Biome> Deep_Rift = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "deep_rift"));
+    public static final ResourceKey<Biome> Amber_Glade = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "amber_glade"));
+    public static final ResourceKey<Biome> Frostbitten_Badlands = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "frostbitten_badlands"));
+    public static final ResourceKey<Biome> Drifting_Wastes = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "drifting_wastes"));
+    public static final ResourceKey<Biome> Cursed_Steppe = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "cursed_steppe"));
+    public static final ResourceKey<Biome> Tanglewood_Mire = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "tanglewood_mire"));
+    public static final ResourceKey<Biome> Glacial_Abyss = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "glacial_abyss"));
+    public static final ResourceKey<Biome> Luminant_Thicket = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "luminant_thicket"));
+    public static final ResourceKey<Biome> Hallowed_Expanse = ResourceKey.create(Registries.BIOME,
+            new ResourceLocation(Ssbas.MOD_ID, "hallowed_expanse"));
 
 
-    public static void boostrap(BootstapContext<Biome> context) {
+    public static void bootstrap(BootstapContext<Biome> context) {
         context.register(SHIMMERING_SHALLOWS, shimmering_shallows(context));
         context.register(ASHEN_WASTES, ashen_wastes(context));
         context.register(SCORCHED_PLATEAU, scorched_plateau(context));
-        context.register(Eldertree_Glade, scorched_plateau(context));
+        context.register(Eldertree_Glade, eldertree_glade(context));
+        context.register(Gilded_Marshlands, gilded_marshlands(context));
+        context.register(Frozen_Abyss, frozen_abyss(context));
+        context.register(Veilwood_Grove, veilwood_grove(context));
+        context.register(Lush_Crater, lush_crater(context));
+        context.register(Obsidian_Dunes, obsidian_dunes(context));
+        context.register(Verdant_Cliffs, verdant_cliffs(context));
+        context.register(Twilight_Expanse, twilight_expanse(context));
+        context.register(Stormy_Highlands, stormy_highlands(context));
+        context.register(Crystalline_Hollows, crystalline_hollows(context));
+        context.register(Blighted_Bog, blighted_bog(context));
+        context.register(Sanguine_Thicket, sanguine_thicket(context));
+        context.register(Ethereal_Steppe, ethereal_steppe(context));
+        context.register(Charred_Hollow, charred_hollow(context));
+        context.register(Deep_Rift, deep_rift(context));
+        context.register(Amber_Glade, amber_glade(context));
+        context.register(Frostbitten_Badlands, frostbitten_badlands(context));
+        context.register(Drifting_Wastes, drifting_wastes(context));
+        context.register(Cursed_Steppe, cursed_steppe(context));
+        context.register(Tanglewood_Mire, tanglewood_mire(context));
+        context.register(Glacial_Abyss, glacial_abyss(context));
+        context.register(Luminant_Thicket, luminant_thicket(context));
+        context.register(Hallowed_Expanse, hallowed_expanse(context));
     }
 
     public static void globalOverworldGeneration(BiomeGenerationSettings.Builder builder) {
@@ -657,6 +713,216 @@ public class ModBiomes {
                         .grassColorOverride(0xA9BAC1)
                         .foliageColorOverride(0x8FA6AD)
                         .fogColor(0xD8F1FF)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome veilwood_hollow (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0x557F8A)
+                        .waterFogColor(0x3B5561)
+                        .skyColor(0x7A8CA9)
+                        .grassColorOverride(0x6C8C7E)
+                        .foliageColorOverride(0x7E9F92)
+                        .fogColor(0x9CB9C5)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome drifting_wastes (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0xD9C185)
+                        .waterFogColor(0xC2A96D)
+                        .skyColor(0xFFE5B3)
+                        .grassColorOverride(0xC2B58A)
+                        .foliageColorOverride(0xA99870)
+                        .fogColor(0xEAD7AA)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome cursed_steppe (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0x4C5C5C)
+                        .waterFogColor(0x2F3A3A)
+                        .skyColor(0x7A7E74)
+                        .grassColorOverride(0x6A715E)
+                        .foliageColorOverride(0x5B6250)
+                        .fogColor(0x888C7A)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome tanglewood_mire (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0x3B4A2C)
+                        .waterFogColor(0x27341F)
+                        .skyColor(0x4D5A3C)
+                        .grassColorOverride(0x546443)
+                        .foliageColorOverride(0x3F512F)
+                        .fogColor(0x5E6B50)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome glacial_abyss (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0x2D4F66)
+                        .waterFogColor(0x1C2F3B)
+                        .skyColor(0xA8C9D9)
+                        .grassColorOverride(0x8CA9B3)
+                        .foliageColorOverride(0x78959F)
+                        .fogColor(0xCFE6F0)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome luminant_thicket (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0x2E736A)
+                        .waterFogColor(0x1F4F49)
+                        .skyColor(0x384E66)
+                        .grassColorOverride(0x3C755A)
+                        .foliageColorOverride(0x47A47C)
+                        .fogColor(0x6EDFCB)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
+                        .build())
+                .build();
+    }
+    public static Biome hallowed_expanse (BootstapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+
+        BiomeDefaultFeatures.desertSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        //we need to follow the same order as vanilla biomes for the BiomeDefaultFeatures
+        BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultCrystalFormations(biomeBuilder);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(false)
+                .downfall(0f)
+                .temperature(2f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0xD4C282)
+                        .waterFogColor(0xBBA76A)
+                        .skyColor(0xFFEAC2)
+                        .grassColorOverride(0xD8D176)
+                        .foliageColorOverride(0xC9BD63)
+                        .fogColor(0xF6EED2)
                         .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
                         .backgroundMusic(Musics.createGameMusic(SoundEvents.MUSIC_BIOME_SWAMP))
                         .build())
